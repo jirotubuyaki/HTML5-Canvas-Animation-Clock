@@ -1,5 +1,4 @@
 # Generative Art Motion Clock by CreateJS(JavaScript)  
-Generative Art Motion Clock by CreateJS(JavaScript) 
  This program is created by CrateJS(JavaScript) + HTML5.  
  You can use it for your web pages and modify the design.  
  Please check your CreateJS version.  
