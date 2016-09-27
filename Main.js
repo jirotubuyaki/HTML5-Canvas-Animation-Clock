@@ -2,55 +2,6 @@ var canvas;
 var stage;
 var center_x;
 var center_y;
-var text;
-var text_title;
-var point_arry = new Array();
-var point_1_arry = new Array();
-var point_2_arry = new Array();
-var point_3_arry = new Array();
-var point_x_1_arry = new Array();
-var point_y_1_arry = new Array();
-var point_z_1_arry = new Array();
-var point_x_1_arry_2 = new Array();
-var point_y_1_arry_2 = new Array();
-var point_z_1_arry_2 = new Array();
-var point_x_2_arry = new Array();
-var point_y_2_arry = new Array();
-var point_z_2_arry = new Array();
-var point_x_2_arry_2 = new Array();
-var point_y_2_arry_2 = new Array();
-var point_z_2_arry_2 = new Array();
-var point_x_3_arry = new Array();
-var point_y_3_arry = new Array();
-var point_z_3_arry = new Array();
-var point_x_3_arry_2= new Array();
-var point_y_3_arry_2 = new Array();
-var point_z_3_arry_2 = new Array();
-var point_x_1_arry_mem = new Array();
-var point_y_1_arry_mem = new Array();
-var point_z_1_arry_mem = new Array();
-var point_x_2_arry_mem = new Array();
-var point_y_2_arry_mem = new Array();
-var point_z_2_arry_mem = new Array();
-var point_x_3_arry_mem = new Array();
-var point_y_3_arry_mem = new Array();
-var point_z_3_arry_mem = new Array();
-var shape_obj = new Array();
-var particle_obj = new Array();
-var particle_color_obj = new Array();
-var t = new Array();
-var t_add = new Array();
-var count = new Array();
-var vertices;
-var element_number=400;
-var point_x_start;
-var point_y_start;
-var point_x_cross;
-var point_y_cross;
-var point_x_end;
-var point_x_end;
-var angle_y=0;
-var angle_z=0;
 
 function init(){
 	canvas = document.getElementById("mycanvas");
@@ -97,12 +48,8 @@ function init(){
 	.arc(stage.canvas.width/2-100,stage.canvas.height-300,10,360,0,true);
 	shape = new createjs.Shape(graphics);
 	stage.addChild(shape);
-	//Path(stage,"#00adfc");
-	//Path(stage,"#fc00ec");
-	//Path(stage,"#ecfc00");
 
 	stage.update();
-
 }
 var Clock = function(parent_in,x_in,y_in,clock_in){
 	var parent = parent_in;
