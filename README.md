@@ -7,7 +7,7 @@ Please check CrateJS version : 2013/12/12
 https://code.createjs.com/createjs-2013.12.12.min.js EaselJS 0.7.1, TweenJS 0.5.1, SoundJS 0.5.2, PreloadJS 0.4.1
 
 ### Please Look
-[Motion Clock DEMO](http://okaal.html.xdomain.jp/logs/generative-art/createjs/clock/index.html)
+[Motion Clock DEMO](https://jirotubuyaki.github.io/createjs/clock/index.html)
 
 ### ScreenShot 
 ![ScreenShot](https://github.com/jirotubuyaki/CreateJS_clock/blob/master/screenshot.png)  
