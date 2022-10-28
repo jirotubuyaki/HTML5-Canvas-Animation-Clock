@@ -1,4 +1,4 @@
-## Design Parts Motion Clock by CreateJS
+## Design Parts Motion Clock by HTML5 Canvas CreateJS(JavaScript)
 ### Introduction
 This program is created by CreateJS (JavaScript) + HTML5. You can use it for your web pages and modify the design. If you watch the design and art, please excuse "index.html" on your browser.  
    
